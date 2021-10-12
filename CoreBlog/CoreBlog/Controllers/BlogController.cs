@@ -18,6 +18,7 @@ namespace CoreBlog.Controllers
         }
         public IActionResult BlogReadAll(int id)
         {
+            ViewBag.blogID = id;
             var values = bm.GetBloyByID(id);
             return View(values);
         }

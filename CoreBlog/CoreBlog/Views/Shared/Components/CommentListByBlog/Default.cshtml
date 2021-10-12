@@ -1,0 +1,21 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Comment>
+<div class="comment-top">
+    <h4>Yorumlar</h4>
+    @if (Model.Count() == 0)
+    {
+        <h3>Bu blogda yorum yapılmadı.İlk yorumu siz yapın..</h3>
+    }
+    @foreach (var item in Model)
+    {
+        <div class="media">
+            <img src="~/CoreBlogTema/web/images/t1.jpg" alt="" class="img-fluid" />
+            <div class="media-body">
+                <h5 class="mt-0">@item.CommentUsername</h5>
+                <p>
+                    @item.CommentContent
+                </p>
+
+            </div>
+        </div>
+    }
+</div>
