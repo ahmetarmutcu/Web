@@ -19,12 +19,37 @@ namespace BusinessLayer.Concrete
         }
         public void CommentAdd(Comment comment)
         {
+            _commentDal.Insert(comment);
+        }
+
+        public Comment GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Comment> GetList()
+        {
             throw new NotImplementedException();
         }
 
         public List<Comment> GetListAll(int id)
         {
             return _commentDal.GetListAll(x => x.BlogID == id);
+        }
+
+        public void TAdd(Comment t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TDelete(Comment t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TUpdate(Comment t)
+        {
+            throw new NotImplementedException();
         }
     }
 }
