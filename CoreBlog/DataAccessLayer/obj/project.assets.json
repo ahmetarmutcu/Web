@@ -5800,8 +5800,8 @@
     },
     "EntityLayer/1.0.0": {
       "type": "project",
-      "path": "../EntityLayer2/EntityLayer.csproj",
-      "msbuildProject": "../EntityLayer2/EntityLayer.csproj"
+      "path": "../EntityLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5840,8 +5840,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj": {
-              "projectPath": "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj"
+            "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

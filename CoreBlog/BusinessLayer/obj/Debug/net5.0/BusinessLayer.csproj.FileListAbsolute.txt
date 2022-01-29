@@ -1,3 +1,8 @@
+D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csprojAssemblyReference.cache
+D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
 D:\Projeler\CoreBlog\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
 D:\Projeler\CoreBlog\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
 D:\Projeler\CoreBlog\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
@@ -6,11 +11,6 @@ D:\Projeler\CoreBlog\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
 D:\Projeler\CoreBlog\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
 D:\Projeler\CoreBlog\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
 D:\Projeler\CoreBlog\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb
-D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csprojAssemblyReference.cache
-D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
-D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
-D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
 D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
 D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
 D:\Projeler\CoreBlog\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll

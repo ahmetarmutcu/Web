@@ -1,4 +1,4 @@
-﻿using EntityLayer.Concrete;
+﻿    using EntityLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,6 +19,22 @@ namespace DataAccessLayer.Context
         {
             optionsBuilder.UseSqlServer("server=DESKTOP-D3R7M3F;initial catalog=DbCoreBlog; Integrated security=true;");
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<OtherMessage>()
+                 .HasOne(x => x.SenderUser)
+                 .WithMany(y => y.WriterSender)
+                 .HasForeignKey(z => z.SenderID)
+                 .OnDelete(DeleteBehavior.ClientSetNull);
+
+            modelBuilder.Entity<OtherMessage>()
+                .HasOne(x => x.ReceiverUser)
+                .WithMany(y => y.WriterReceiver)
+                .HasForeignKey(z => z.ReceiverID)
+                .OnDelete(DeleteBehavior.ClientSetNull);
+        }
+
         public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Category> Categories { get; set; }
@@ -29,5 +45,6 @@ namespace DataAccessLayer.Context
         public DbSet<BlogRayting> BlogRaytings { get; set; }
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Message> Messages { get; set; }
+        public DbSet<OtherMessage> OtherMessages { get; set; }
     }
 }

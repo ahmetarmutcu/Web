@@ -274,6 +274,40 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Notifications");
                 });
 
+            modelBuilder.Entity("EntityLayer.Concrete.OtherMessage", b =>
+                {
+                    b.Property<int>("MessageID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("MessageDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("MessageDetails")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("MessageStatus")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("ReceiverID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("SenderID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Subject")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MessageID");
+
+                    b.HasIndex("ReceiverID");
+
+                    b.HasIndex("SenderID");
+
+                    b.ToTable("OtherMessages");
+                });
+
             modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
                 {
                     b.Property<int>("WriterID")
@@ -291,6 +325,9 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("WriterName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("WriterOtherPassword")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("WriterPassword")
@@ -334,6 +371,21 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("Blog");
                 });
 
+            modelBuilder.Entity("EntityLayer.Concrete.OtherMessage", b =>
+                {
+                    b.HasOne("EntityLayer.Concrete.Writer", "ReceiverUser")
+                        .WithMany("WriterReceiver")
+                        .HasForeignKey("ReceiverID");
+
+                    b.HasOne("EntityLayer.Concrete.Writer", "SenderUser")
+                        .WithMany("WriterSender")
+                        .HasForeignKey("SenderID");
+
+                    b.Navigation("ReceiverUser");
+
+                    b.Navigation("SenderUser");
+                });
+
             modelBuilder.Entity("EntityLayer.Concrete.Blog", b =>
                 {
                     b.Navigation("Comments");
@@ -347,6 +399,10 @@ namespace DataAccessLayer.Migrations
             modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
                 {
                     b.Navigation("Blogs");
+
+                    b.Navigation("WriterReceiver");
+
+                    b.Navigation("WriterSender");
                 });
 #pragma warning restore 612, 618
         }

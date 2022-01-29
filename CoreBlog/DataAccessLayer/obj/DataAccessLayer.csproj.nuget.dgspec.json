@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj": {
-                "projectPath": "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj"
+              "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj": {
+    "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj",
+        "projectUniqueName": "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj",
+        "projectPath": "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeler\\CoreBlog\\EntityLayer2\\obj\\",
+        "outputPath": "D:\\Projeler\\CoreBlog\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,16 +13,22 @@ using FluentValidation.Results;
 using BusinessLayer.ValidationRules;
 using CoreBlog.Models;
 using System.IO;
+using DataAccessLayer.Context;
 
 namespace CoreBlog.Controllers
 {
-    [AllowAnonymous]
     public class WriterController : Controller
     {
         WriterManager wm = new WriterManager(new EfWriterRepository());
 
+        [Authorize]
         public IActionResult Index()
         {
+            var userEmail = User.Identity.Name;
+            ViewBag.v = userEmail;
+            ApplicationDbContext c = new ApplicationDbContext();
+            var writerName = c.Writers.Where(x => x.WriterMail == userEmail).Select(y => y.WriterName).FirstOrDefault();
+            ViewBag.v2 = writerName;
             return View();
         } 
 

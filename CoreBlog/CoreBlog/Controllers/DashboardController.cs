@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 
 namespace CoreBlog.Controllers
 {
-    [AllowAnonymous]
     public class DashboardController : Controller
     {
-        
+        [Authorize]
         public IActionResult Index()
         {
             ApplicationDbContext c = new ApplicationDbContext();

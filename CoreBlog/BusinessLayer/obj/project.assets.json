@@ -5814,8 +5814,8 @@
     },
     "EntityLayer/1.0.0": {
       "type": "project",
-      "path": "../EntityLayer2/EntityLayer.csproj",
-      "msbuildProject": "../EntityLayer2/EntityLayer.csproj"
+      "path": "../EntityLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5855,8 +5855,8 @@
             "D:\\Projeler\\CoreBlog\\DataAccessLayer\\DataAccessLayer.csproj": {
               "projectPath": "D:\\Projeler\\CoreBlog\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj": {
-              "projectPath": "D:\\Projeler\\CoreBlog\\EntityLayer2\\EntityLayer.csproj"
+            "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "D:\\Projeler\\CoreBlog\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
