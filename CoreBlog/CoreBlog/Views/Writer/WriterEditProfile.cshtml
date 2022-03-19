@@ -1,42 +1,30 @@
-﻿@model EntityLayer.Concrete.Writer
+﻿@model UserUpdateViewModel
 @{
     ViewData["Title"] = "WriterEditProfile";
     Layout = "~/Views/Shared/WriterLayout.cshtml";
 }
 
-@using (Html.BeginForm("WriterEditProfile", "Writer", FormMethod.Post))
-{
+
     <div class="col-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Yazar Profil Bilgileri Düzenleme</h4>
-                <p class="card-description"> Basic form elements </p>
-                <form class="forms-sample">
+                <h4 class="card-title">Yazar Profil Bilgileri</h4>
+                <form class="forms-sample" method="post">
                     <div class="form-group">
                         <label for="exampleInputName1">Yazar Ad Soyadı</label>
-                        <input type="text" class="form-control" id="exampleInputName1" asp-for="WriterName" placeholder="Yazar Adı Soyadı">
+                        <input type="text" class="form-control" id="exampleInputName1" asp-for="NameSurname" placeholder="Yazar Adı Soyadı">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail3">Mail Adresi</label>
-                        <input type="email" class="form-control" id="exampleInputEmail3" asp-for="WriterMail" placeholder="Email">
+                        <input type="email" class="form-control" id="exampleInputEmail3" asp-for="Mail" placeholder="Email">
+                    </div>
+                     <div class="form-group">
+                        <label for="exampleInputEmail3">Kullanıcı</label>
+                        <input type="text" class="form-control" id="exampleInputEmail3" asp-for="Username" placeholder="Email">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword4">Şifre</label>
-                        <input type="password" class="form-control" id="exampleInputPassword4" asp-for="WriterPassword" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label>Yazar Görsel</label>
-                        <input type="file" name="img[]" class="file-upload-default">
-                        <div class="input-group col-xs-12">
-                            <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
-                            <span class="input-group-append">
-                                <button class="file-upload-browse btn btn-gradient-primary" type="button">Resim Seç</button>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleTextarea1">Yazar Hakkında</label>
-                        <textarea class="form-control" id="exampleTextarea1" asp-for="WriterAbout" rows="4"></textarea>
+                        <input type="password" class="form-control" id="exampleInputPassword4" asp-for="Password" placeholder="Password">
                     </div>
                     <button type="submit" class="btn btn-gradient-primary mr-2">Güncelle</button>
                     <button class="btn btn-light">İptal</button>
@@ -44,5 +32,4 @@
             </div>
         </div>
     </div>
-}
 

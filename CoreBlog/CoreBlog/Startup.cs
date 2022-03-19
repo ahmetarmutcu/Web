@@ -1,3 +1,5 @@
+using DataAccessLayer.Context;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -26,6 +28,14 @@ namespace CoreBlog
         // Yapýlandýrma servisleri
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApplicationDbContext>();
+            services.AddIdentity<AppUser, AppRole>(x =>
+            {
+                x.Password.RequireUppercase = false;
+                x.Password.RequireNonAlphanumeric = false;
+
+
+            }).AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
 
             services.AddSession();
@@ -47,7 +57,6 @@ namespace CoreBlog
                     x.LoginPath = "/Login/Index";
                 
                 });
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -71,7 +80,6 @@ namespace CoreBlog
 
             app.UseAuthentication();
 
-
             app.UseSession();
 
             app.UseRouting();
@@ -85,8 +93,8 @@ namespace CoreBlog
                 pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
             );
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    name: "defualt",
+                    pattern: "{controller=Blog}/{action=Index}/{id?}");
             });
         }
     }

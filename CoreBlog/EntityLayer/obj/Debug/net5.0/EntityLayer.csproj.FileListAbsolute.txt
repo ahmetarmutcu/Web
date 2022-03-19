@@ -25,7 +25,7 @@ D:\Projeler\CoreBlog\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
 D:\Projeler\CoreBlog\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
 D:\Projeler\CoreBlog\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
 D:\Projeler\CoreBlog\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
-D:\Projeler\CoreBlog\EntityLayer\obj\Debug\net5.0\EntityLayer.csprojAssemblyReference.cache
+D:\Projeler\CoreBlog\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
 D:\Projeler\CoreBlog\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projeler\CoreBlog\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
 D:\Projeler\CoreBlog\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7f447d05-d95f-4625-99dc-79ae5b42cc06": {
+      "ProjectGuid": "7f447d05-d95f-4625-99dc-79ae5b42cc06",
+      "DisplayName": "CoreLayer",
+      "ColorIndex": 0
+    },
+    "b13ebb11-0209-415a-98cf-77c62436094e": {
+      "ProjectGuid": "b13ebb11-0209-415a-98cf-77c62436094e",
+      "DisplayName": "BlogApiDemo",
+      "ColorIndex": 1
+    },
+    "48473b1d-9c62-4ffe-a9e3-1e3c380161c8": {
+      "ProjectGuid": "48473b1d-9c62-4ffe-a9e3-1e3c380161c8",
+      "DisplayName": "CoreBlog",
+      "ColorIndex": 2
+    },
+    "b204edf4-13b0-4a8d-9f96-1463ea0081cd": {
+      "ProjectGuid": "b204edf4-13b0-4a8d-9f96-1463ea0081cd",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 3
+    },
+    "313d5354-705c-4b4a-8e40-e7c8aa4b2b24": {
+      "ProjectGuid": "313d5354-705c-4b4a-8e40-e7c8aa4b2b24",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "2f6e0296-5bd7-459a-8fa5-83c1369a3f93": {
+      "ProjectGuid": "2f6e0296-5bd7-459a-8fa5-83c1369a3f93",
+      "DisplayName": "EntityLayer",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
