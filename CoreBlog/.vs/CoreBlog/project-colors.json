@@ -35,7 +35,12 @@
       "ProjectGuid": "2f6e0296-5bd7-459a-8fa5-83c1369a3f93",
       "DisplayName": "EntityLayer",
       "ColorIndex": 5
+    },
+    "ddf3fe7c-66b4-41fb-abb8-34f448b49307": {
+      "ProjectGuid": "ddf3fe7c-66b4-41fb-abb8-34f448b49307",
+      "DisplayName": "jwt_CoreBlog",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

@@ -1,0 +1,12 @@
+D:\Projeler\CoreBlog\EntityLayer\bin\Release\net5.0\EntityLayer.deps.json
+D:\Projeler\CoreBlog\EntityLayer\bin\Release\net5.0\EntityLayer.dll
+D:\Projeler\CoreBlog\EntityLayer\bin\Release\net5.0\ref\EntityLayer.dll
+D:\Projeler\CoreBlog\EntityLayer\bin\Release\net5.0\EntityLayer.pdb
+D:\Projeler\CoreBlog\EntityLayer\obj\Release\net5.0\EntityLayer.csproj.AssemblyReference.cache
+D:\Projeler\CoreBlog\EntityLayer\obj\Release\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeler\CoreBlog\EntityLayer\obj\Release\net5.0\EntityLayer.AssemblyInfoInputs.cache
+D:\Projeler\CoreBlog\EntityLayer\obj\Release\net5.0\EntityLayer.AssemblyInfo.cs
+D:\Projeler\CoreBlog\EntityLayer\obj\Release\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\Projeler\CoreBlog\EntityLayer\obj\Release\net5.0\EntityLayer.dll
+D:\Projeler\CoreBlog\EntityLayer\obj\Release\net5.0\ref\EntityLayer.dll
+D:\Projeler\CoreBlog\EntityLayer\obj\Release\net5.0\EntityLayer.pdb

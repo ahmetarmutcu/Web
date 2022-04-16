@@ -18,9 +18,10 @@ namespace DataAccessLayer.Context
         /// <param name="optionsBuilder"></param>
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-D3R7M3F;initial catalog=DbCoreBlog; Integrated security=true;");
-        }
 
+            //optionsBuilder.UseSqlServer("server=DESKTOP-D3R7M3F;initial catalog=DbCoreBlog; Integrated security=true;");
+            optionsBuilder.UseSqlServer("Data Source=SQL8001.site4now.net;Initial Catalog=db_a85983_dbwebcoreblog;User Id=db_a85983_dbwebcoreblog_admin;Password=!98ahmet");
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<OtherMessage>()

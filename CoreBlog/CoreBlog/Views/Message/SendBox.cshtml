@@ -1,0 +1,24 @@
+﻿@using EntityLayer.Concrete
+@model List<OtherMessage>
+@{
+    ViewData["Title"] = "SendBox";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+<h1>Giden Kutusu</h1>
+<table class="table mdi-table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Konu</th>
+        <th>Tarih</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.MessageID</td>
+            <td>@item.Subject</td>
+            <td>@item.MessageDate.ToShortDateString()</td>
+        </tr>
+    }
+</table>
+
+

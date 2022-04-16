@@ -20,22 +20,24 @@ namespace BusinessLayer.Concrete
 
         public OtherMessage GetById(int id)
         {
-            throw new NotImplementedException();
+            return _otherMessageDal.GetByID(id);
         }
 
         public List<OtherMessage> GetInboxListByWriter(int id)
         {
             return _otherMessageDal.GetListAll(x => x.ReceiverID == id);
         }
-
+        public List<OtherMessage> GetSendBoxListByWriter(int id)
+        {
+            return _otherMessageDal.GetListAll(x => x.SenderID == id);
+        }
         public List<OtherMessage> GetList()
         {
             return _otherMessageDal.GetListAll();
         }
-
         public void TAdd(OtherMessage t)
         {
-            throw new NotImplementedException();
+            _otherMessageDal.Insert(t);
         }
 
         public void TDelete(OtherMessage t)

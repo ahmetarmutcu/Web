@@ -191,8 +191,11 @@ D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.c
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Message\InBox.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Message\SendBox.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Message\SendMessage.cshtml.g.cs
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\NewsLetter\SubscribeMail.cshtml.g.cs
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Notification\AllNotification.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\RegisterUser\Index.cshtml.g.cs
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Shared\AdminLayout.cshtml.g.cs
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogLast3Post\Default.cshtml.g.cs
@@ -228,4 +231,12 @@ D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\CoreBlog.dll
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\ref\CoreBlog.dll
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\CoreBlog.pdb
 D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\CoreBlog.genruntimeconfig.cache
-D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\RegisterUser\Index.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Areas\Admin\Views\Message\Inbox.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Areas\Admin\Views\Rol\Index.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Areas\Admin\Views\Message\SendBox.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Areas\Admin\Views\Rol\AddRole.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Areas\Admin\Views\Rol\UpdateRole.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Areas\Admin\Views\Rol\UserRoleList.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Areas\Admin\Views\Rol\AssignRole.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\Projeler\CoreBlog\CoreBlog\obj\Debug\net5.0\Razor\Views\Login\AccessDenied.cshtml.g.cs

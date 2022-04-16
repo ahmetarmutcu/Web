@@ -10,5 +10,7 @@ namespace BusinessLayer.Abstract
     public interface IOtherMessageService: IGenericService<OtherMessage>
     {
         List<OtherMessage> GetInboxListByWriter(int p);
+
+        List<OtherMessage> GetSendBoxListByWriter(int p);
     }
 }
